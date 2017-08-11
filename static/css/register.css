@@ -1,0 +1,112 @@
+.sh-register{
+    width:100%;
+    height:100%;
+}
+
+
+.sh-bg-sign{
+    background:url(/static/img/bg_04.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    height:5.46666rem;
+    text-align: center;
+}
+.sh-bg-sign img{
+    margin-top:1.8rem;
+    width:2.333333rem;
+    height:2.333333rem;
+ }
+.sh-main-sign{
+    width:6.666666667rem;
+    margin:0 auto;
+    background-color:#fff;
+}
+.sh-main-sign input{
+    border:none;
+    height:1.44rem;
+    line-height:1.44rem;
+    font-size:0.4rem;
+}
+.sh-main-sign p{
+    margin-top:0.6133333rem;
+    margin-bottom:0.6133333rem;
+    text-align: center;
+    color:#333;
+}
+.sh-main-sign p span{
+    border: 3px solid #ffe933;
+    width: 9px;
+    height: 9px;
+    border-radius:50%;
+    display: inline-block;
+    margin-right:0.4rem;
+    line-height: 15px;
+    vertical-align: text-bottom;
+}
+[data-dpr="2"] .sh-main-sign p span{
+    border: 6px solid #ffe933;
+    width: 18px;
+    height: 18px;
+    line-height: 24px;
+}
+[data-dpr="3"] .sh-main-sign p span{
+    border: 9px solid #ffe933;
+    width: 27px;
+    height: 27px;
+    line-height: 36px;
+}
+.sh-main-sign button{
+    background-color:#ffe933;
+    height:1.0666667rem;
+    width:6.666666667rem;
+    border-radius:50px;
+    outline:none;
+    border:none;
+    font-size:0.3733333rem;
+}
+
+
+/*input*/
+.a{
+    margin-top: 0.533333rem;
+    background:url("/static/img/dl@2x.png");
+    background-repeat: no-repeat;
+    background-size:0.58666667rem;
+    background-position:left;
+    padding-left:1rem;
+}
+.b{
+    background:url("/static/img/email@2x.png");
+    background-repeat: no-repeat;
+    background-size:0.58666667rem;
+    background-position:left;
+    padding-left:1rem;
+}
+.c{
+    background:url("/static/img/dlmm@2x.png");
+    background-repeat: no-repeat;
+    background-size:0.58666667rem;
+    background-position:left;
+    padding-left:1rem;
+}
+.d{
+    background:url("/static/img/dlmm@2x.png");
+    background-repeat: no-repeat;
+    background-size:0.58666667rem;
+    background-position:left;
+    padding-left:1rem;
+}
+.e{
+    background:url("/static/img/code@2x.png");
+    background-repeat: no-repeat;
+    background-size:0.58666667rem;
+    background-position:left;
+    padding-left:1rem;
+}
+
+
+
+
+
+
+

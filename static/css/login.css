@@ -1,0 +1,164 @@
+body{
+    padding:0;
+    margin:0;
+}
+.sh-logo{
+
+}
+.linebot{
+    display:block;
+    border-bottom:1px solid #999;
+    width:100%;
+}
+.sh-login-mask{
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index:-1;
+}
+.sh-login-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+}
+.sh-login-main{
+    width:6.72rem;
+    margin:0 auto;
+    text-align: center;
+}
+.sh-pic-logo img{
+    margin-top:2.2rem;
+    width:2.333333rem;
+    height:2.333333rem;
+}
+
+.s{
+    margin-top:0.5333333rem;
+    color:#c2c2c2;
+    font-size:0.3733333rem;
+}
+.sh-login-main p span{
+     color:#c4b00c;
+}
+.sh-login-main input{
+    border:none;
+    height:1rem;
+    line-height:1rem;
+    font-size:0.4rem;
+    background-color: transparent;
+    color:#f2f2f2;
+    width: 78%;
+}
+.sh-login-main input:focus{
+    caret-color: white;
+}
+.s1{
+    margin-top: 1.76rem;
+    background:url("/static/img/user-icon.png");
+    background-repeat: no-repeat;
+    background-size:0.58666667rem;
+    background-position:left;
+    padding-left:1rem;
+}
+.s2{
+    background:url("/static/img/pwd-icon.png");
+    background-repeat: no-repeat;
+    background-size:0.58666667rem;
+    background-position:left;
+    padding-left:1rem;
+    margin-top: 0.466667rem;
+}
+.s3{
+    float:right;
+    margin-top:0.336667rem;
+}
+.s3 a{
+    color:#c2c2c2;
+    font-size:0.32rem;
+    text-decoration: none;
+}
+button{
+    background-color:#ffe933;
+    height:1.0666667rem;
+    width:6.72rem;
+    border-radius:50px;
+    outline:none;
+    border:none;
+    font-size:0.3733333rem;
+    margin-top:0.5866667rem;
+    margin-bottom:0.2rem;
+}
+.sh-login-main ul li{
+    width:2.2rem;
+    float:left;
+}
+.sh-login-main ul li a img{
+    width:0.66667rem;
+    height:0.66667rem;
+}
+.bfserver{
+    margin-top:1rem;
+    margin-bottom: 0.5866667rem;
+    position: relative;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color:#c2c2c2;
+}
+[data-dpr="2"] .bfserver{
+    height: 24px;
+    line-height: 24px;
+    font-size: 24px;
+}
+[data-dpr="3"] .bfserver{
+    height: 36px;
+    line-height: 36px;
+    font-size: 36px;
+}
+.bfserver::before{
+    content: ' ';
+    position: absolute;
+    border-top: 1px solid #fff;
+    top: 6px;
+    left: 0;
+    width: 80px;
+}
+[data-dpr="2"] .bfserver::before{
+    width: 160px;
+    top: 12px;
+}
+[data-dpr="3"] .bfserver::before{
+    width: 240px;
+    top: 18px;
+}
+.bfserver::after{
+    content: ' ';
+    position: absolute;
+    border-top: 1px solid #fff;
+    top: 6px;
+    right: 0;
+    width: 80px;
+}
+[data-dpr="2"] .bfserver::after{
+    width: 160px;
+    top: 12px;
+}
+[data-dpr="3"] .bfserver::after{
+    width: 240px;
+    top: 18px;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+/*
+* @Author: qqf
+* @Date:   2017-07-19 13:29:24
+* @Last Modified time: 2017-07-19 13:44:18
+*/
+.sh-back{
+    display: block;
+    height: 100%;
+    width: 12px;
+    float: left;
+    background-image: url('../img/back@2x.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left center;
+    margin-left: 10px;
+}
+[data-dpr="2"] .sh-back{
+    display: block;
+    height: 100%;
+    width: 24px;
+    float: left;
+    background-image: url('../img/back@2x.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left center;
+    margin-left: 20px;
+}
+[data-dpr="3"] .sh-back{
+    display: block;
+    height: 100%;
+    width: 36px;
+    float: left;
+    background-image: url('../img/back@2x.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left center;
+    margin-left: 30px;
+}
+
+[data-dpr="2"] .border-1px::fater{
+    -webkit-transform:scaleY(0.7);
+    transform:scaleY(0.7);
+}
+[data-dpr="3"] .border-1px::fater{
+    -webkit-transform:scaleY(1);
+    transform:scaleY(1);
+}
+.border-1px{
+    position:relative;
+}
+.border-1px::after{
+    display:block;
+    position:absolute;
+    left:0px;
+    top:0px;
+    border-top:1px solid #f0f0f0;
+    width:100%;
+    content:' ';
+}

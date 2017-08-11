@@ -1,0 +1,230 @@
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+.sh-order{
+    width:100%;
+    background-image:url(../img/37@2x.png);
+    background-size: cover;
+}
+.sh-header{
+    height:40px;
+
+    margin-bottom:10px;
+}
+[data-dpr="2"] .sh-header{
+    height:80px;
+    margin-bottom:20px;
+}
+[data-dpr="3"] .sh-header{
+    height:120px;
+    margin-bottom:30px;
+}
+.sh-pic img{
+    width:100%;
+    height:100%;
+}
+.settings{
+    float:left;
+    margin-left:4%;
+    width:0.586667rem;
+    margin-top:0.293333rem;
+}
+.chats{
+    float:right;
+    margin-right:4%;
+    width:0.533333rem;
+    margin-top:0.293333rem;
+}
+.sh-pic{
+    display:flex;
+    width:92%;
+    margin: 0 4%;
+    position:relative;
+    padding-top: 10px;
+}
+ [data-dpr="2"] .sh-pic{
+    padding-top: 10px;
+}
+[data-dpr="3"] .sh-pic{
+    padding-top: 30px;
+}
+.sh-pic .sh-headimg{
+    flex: 0 0 64px;
+    height: 64px;
+}
+[data-dpr="2"] .sh-pic .sh-headimg{
+    flex: 0 0 125px;
+    height: 125px;
+}
+[data-dpr="3"] .sh-pic .sh-headimg{
+    flex: 0 0 192px;
+    height: 192px;
+}
+.sh-pic-title{
+    flex:1;
+    margin-left:0.213333rem
+}
+.sh-pic-title h3{
+    font-size: 14px;
+    color:#ccc;
+    padding-top:12px;
+    margin-bottom: 15px;
+}
+[data-dpr="2"] .sh-pic-title h3{
+    font-size: 30px;
+    padding-top:24px;
+    margin-bottom: 30px;
+}
+[data-dpr="3"] .sh-pic-title h3{
+    font-size: 46px;
+    padding-top:36px;
+    margin-bottom: 45px;
+}
+
+.sh-pic-title h3 span{
+    font-size:12px;
+    color:#ccc;
+}
+[data-dpr="2"] .sh-pic-title h3 span{
+    font-size: 24px;
+}
+[data-dpr="3"] .sh-pic-title h3 span{
+    font-size: 36px;
+}
+.sh-pic-title p{
+    font-size: 12px;
+    color:#ccc;
+}
+[data-dpr="2"] .sh-pic-title p{
+    font-size: 24px;
+}
+[data-dpr="3"] .sh-pic-title p{
+    font-size: 36px;
+}
+.sh-right{
+    height:40px;
+    line-height:40px;
+    margin-right:4%;
+}
+[data-dpr="2"] .sh-right{
+    height:80px;
+    line-height:80px;
+}
+[data-dpr="3"] .sh-right{
+    height:120px;
+    line-height:120px;
+}
+.sh-right h3{
+    float:right;
+    color:#fde100;
+    font-size:0.32rem;
+}
+.sh-right h3 span{
+    color:#fff;
+    font-size:0.32rem;
+}
+
+.sh-section{
+    width:92%;
+    padding:0 4%;
+    display:flex;
+    background-color:white;
+    height:40px;
+    line-height:40px;
+    font-size:14px;
+    border-bottom: 1px solid #f0f0f0;
+}
+[data-dpr="2"] .sh-section{
+    height:80px;
+    line-height:80px;
+    font-size:30px;
+}
+[data-dpr="3"] .sh-section{
+    height:120px;
+    line-height:120px;
+    font-size:46px;
+}
+.sh-section div{
+    flex:1;
+}
+.shoplist{
+    color:#333;
+}
+.alllist{
+    color:#666;
+    text-align:right;
+}
+.rightbg {
+    background: url('/static/img/more@2x.png') no-repeat center right;
+    padding-right:15px;
+    background-size:8px;
+}
+[data-dpr="2"] .rightbg{
+    padding-right:30px;
+    background-size:16px;
+}
+[data-dpr="3"] .rightbg{
+    padding-right:45px;
+    background-size:24px;
+}
+.sh-four{
+    width:100%;
+    clear:both;
+    display:flex;
+    padding-bottom: 0.266667rem;
+    background-color:white;
+    padding-top: 0.266667rem;
+}
+.sh-four div{
+    flex:1;
+    text-align: center;
+}
+.sh-four div p{
+    margin-top:0.186667rem;
+}
+.sh-four div img{
+    width:0.586667rem;
+}
+.sh-four div{
+    color:#333;
+    font-size:0.373333rem;
+}
+.sh-main{
+    width:100%;
+    clear:both;
+    background-color:white;
+    margin-top:0.266667rem;
+}
+.marks-a{
+    position: absolute;
+    display:block;
+    min-width:0.32rem;
+    min-height:0.32rem;
+    top: -0.36rem;
+    right: -0.16rem;
+    border-radius:50%;
+    background-color:#fde100;
+    font-style: normal;
+}
+.sh-main ul{
+
+}
+.sh-main ul li{
+    height:1.173333rem;
+    border-bottom:1px solid #f0f0f0;
+    line-height:1.173333rem;
+    background:url(../img/more@2x.png) no-repeat 96% center;
+    background-size:0.213333rem;
+}
+.sh-main ul li a{
+    display:block;
+    width:96%;
+    height:100%;
+    color:#333;
+    font-size:0.373333rem;
+    padding-left:4%;
+}
+

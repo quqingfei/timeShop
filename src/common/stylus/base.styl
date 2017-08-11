@@ -1,0 +1,158 @@
+.clearfix
+  display inline-block
+  &:after
+    content '.'
+    display block
+    height 0
+    line-height 0
+    clear both
+    visibility hidden
+@media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)
+  .border-1px
+    &::fater
+      -webkit-transform scaleY(0.7)
+      transform scaleY(0.7)
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2)
+  .border-1px
+    &::fater
+      -webkit-transform scaleY(1)
+      transform scaleY(1)
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3)
+  .border-1px
+    &::fater
+      -webkit-transform scaleY(1.5)
+      transform scaleY(1.5)
+/* 字体设置 */
+font-dpr($font-size)
+  font-size odd($font-size / 2) ? ($font-size / 2 - 1)px : ($font-size / 2)px
+  [data-dpr="2"] &
+    font-size $font-size px
+  [data-dpr="3"] &
+    font-size odd($font-size / 2) ? ($font-size / 2 * 3 - 1)px : ($font-size / 2 * 3)px
+/* 行高和高度相同设置 */
+heightandline-dpr($num)
+  height ($num / 2)px
+  line-height ($num / 2)px
+  [data-dpr="2"] &
+    height ($num)px
+    line-height ($num)px
+  [data-dpr="3"] &
+    height ($num / 2 * 3)px
+    line-height ($num / 2 * 3)px
+/* 高度设置 */
+height-dpr($num)
+  height ($num / 2)px
+  [data-dpr="2"] &
+    height ($num)px
+  [data-dpr="3"] &
+    height ($num / 2 * 3)px
+/* 宽度设置 */
+width-dpr($num)
+  width ($num / 2)px
+  [data-dpr="2"] &
+    width ($num)px
+  [data-dpr="3"] &
+    width ($num / 2 * 3)px
+/* 行高设置 */
+lineheight-dpr($num)
+  line-height ($num / 2)px
+  [data-dpr="2"] &
+    line-height ($num)px
+  [data-dpr="3"] &
+    line-height ($num / 2 * 3)px
+/* 外边距设置 */
+margin-dpr($top, $right, $bottom, $left)
+  margin ($top / 2)px ($right / 2)px ($bottom / 2)px ($left / 2)px
+  [data-dpr="2"] &
+    margin ($top)px ($right)px ($bottom)px ($left)px
+  [data-dpr="3"] &
+    margin ($top / 2 * 3)px ($right / 2 * 3)px ($bottom / 2 * 3)px ($left / 2 * 3)px
+/* 内边距设置 */
+padding-dpr($top, $right, $bottom, $left)
+  padding ($top / 2)px ($right / 2)px ($bottom / 2)px ($left / 2)px
+  [data-dpr="2"] &
+    padding ($top)px ($right)px ($bottom)px ($left)px
+  [data-dpr="3"] &
+    padding ($top / 2 * 3)px ($right / 2 * 3)px ($bottom / 2 * 3)px ($left / 2 * 3)px
+/* 边框设置 */
+border-dpr($num, $color)
+  border ($num / 2)px solid $color
+  [data-dpr="2"] &
+    border ($num)px solid $color
+  [data-dpr="3"] &
+    border ($num / 2 * 3)px solid $color
+bordertop-dpr($num, $color)
+  border-top ($num / 2)px solid $color
+  [data-dpr="2"] &
+    border-top ($num)px solid $color
+  [data-dpr="3"] &
+    border-top ($num / 2 * 3)px solid $color
+borderbottom-dpr($num, $color)
+  border-bottom ($num / 2)px solid $color
+  [data-dpr="2"] &
+    border-bottom ($num)px solid $color
+  [data-dpr="3"] &
+    border-bottom ($num / 2 * 3)px solid $color
+borderright-dpr($num, $color)
+  border-right ($num / 2)px solid $color
+  [data-dpr="2"] &
+    border-right ($num)px solid $color
+  [data-dpr="3"] &
+    border-right ($num / 2 * 3)px solid $color
+borderleft-dpr($num, $color)
+  border-left ($num / 2)px solid $color
+  [data-dpr="2"] &
+    border-left ($num)px solid $color
+  [data-dpr="3"] &
+    border-left ($num / 2 * 3)px solid $color
+/* 定位上距离 */
+/* 定位上距离 */
+top-dpr($num)
+  top ($num / 2)px
+  [data-dpr="2"] &
+    top ($num)px
+  [data-dpr="3"] &
+    top ($num / 2 * 3)px
+/* 定位右距离 */
+right-dpr($num)
+  right ($num / 2)px
+  [data-dpr="2"] &
+    right ($num)px
+  [data-dpr="3"] &
+    right ($num / 2 * 3)px
+/* 定位下距离 */
+bottom-dpr($num)
+  bottom ($num / 2)px
+  [data-dpr="2"] &
+    bottom ($num)px
+  [data-dpr="3"] &
+    bottom ($num / 2 * 3)px
+/* 定位左距离 */
+left-dpr($num)
+  left ($num / 2)px
+  [data-dpr="2"] &
+    left ($num)px
+  [data-dpr="3"] &
+    left ($num / 2 * 3)px
+/* 阴影设置 */
+boxshadow-dpr(x,y,blur,spread,color)
+  box-shadow (x/2)px (y/2)px (blur/2)px (spread/2)px color
+  [data-dpr="2"] &
+    box-shadow (x)px (y)px (blur)px (spread)px color
+  [data-dpr="3"] &
+    box-shadow (x/2*3)px (y/2*3)px (blur/2*3)px (spread/2*3)px color
+/* 最小高度设置 */
+minheight-dpr($num)
+  min-height ($num/2)px
+  [data-dpr="2"] &
+    min-height ($num)px
+  [data-dpr="3"] &
+    min-height ($num / 2 * 3)px
+/* flex宽度设定 */
+flex-dpr($num)
+  flex 0 0 ($num/2)px
+  [data-dpr="2"] &
+    flex 0 0 ($num)px
+  [data-dpr="3"] &
+    flex 0 0 ($num / 2 * 3)px
